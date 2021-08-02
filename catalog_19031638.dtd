@@ -1,0 +1,61 @@
+<?xml encoding="UTF-8"?>
+<!--Root Element-->
+<!ELEMENT Store (Store_Name,Address,Telephone_Number,Email_Address,Website_Address,Logo,Welcome,Music,Copyright)>
+<!--<!ATTLIST Store
+ xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+ xsi:noNamespaceSchemaLocation CDATA #REQUIRED>-->
+ <!--Store_Name Element -->
+<!ELEMENT Store_Name (#PCDATA)>
+<!--Address Element -->
+<!ELEMENT Address (#PCDATA)>
+<!--Telephone_Number Element -->
+<!ELEMENT Telephone_Number (#PCDATA)>
+<!--Email_Address Element -->
+<!ELEMENT Email_Address (#PCDATA)>
+<!-- Website_Address Element -->
+<!ELEMENT Website_Address (#PCDATA)>
+<!-- Logo Element -->
+<!ELEMENT Logo EMPTY>
+<!-- Defining attribute type of Logo -->
+<!ATTLIST Logo image CDATA "img">
+<!ELEMENT Welcome (#PCDATA)>
+<!ELEMENT Music (Album+)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Album (Song+)>
+<!-- Defining attribute type of Album -->
+<!ATTLIST Album id ID #REQUIRED>
+<!ELEMENT Song (Information,Banner,Description+)>
+<!-- Defining attribute type of Song -->
+<!ATTLIST Song Song_no CDATA #REQUIRED>
+<!ATTLIST Song Song_label CDATA #REQUIRED>
+<!ELEMENT Information (#PCDATA)>
+<!ELEMENT Banner (#PCDATA)>
+<!-- Defining attribute type of Banner -->
+<!ATTLIST Banner id ID #REQUIRED>
+<!ELEMENT Description (Song_Name,Song_Length,Released_Year,Genre,Video_Making+,Producer,Nationality,Language,Song_Writer,Singer,IMDb_Rating,(Awards|Certification|Concert|Performance|Billboard|Studio)?)>
+<!ELEMENT Song_Name (#PCDATA)>
+<!ELEMENT Song_Length (#PCDATA)>
+<!ELEMENT Released_Year (#PCDATA)>
+<!ATTLIST Released_Year date CDATA #REQUIRED>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Video_Making (Director,Location,Actor,Views)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Actor (#PCDATA)>
+<!ELEMENT Views (#PCDATA)>
+<!-- Defining attribute type of Views -->
+<!ATTLIST Video_Making type CDATA #REQUIRED>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Nationality (#PCDATA)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Song_Writer (#PCDATA)>
+<!ELEMENT Singer (#PCDATA)>
+<!ELEMENT IMDb_Rating (#PCDATA)>
+<!ELEMENT Performance (#PCDATA)>
+<!ELEMENT Certification (#PCDATA)>
+<!ELEMENT Awards (#PCDATA)>
+<!ELEMENT Concert (#PCDATA)>
+<!ELEMENT Billboard (#PCDATA)>
+<!ELEMENT Studio (#PCDATA)>
+
+

@@ -1,0 +1,1104 @@
+/* Styling Root Tag*/
+Store 
+{ 
+	background-color: #FFD700; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:auto;
+	width: 100%;
+  	background: #5f2c3e;
+
+ /* Applying animation in the store */ 
+  	animation: fadebackground 6s infinite;
+}
+@keyframes fadebackground {
+  	from {background-color:#800000;}
+  	to {background-color:#cbbd8e;}
+}
+/* Styling the contents of Store Name*/
+Store_Name 
+{ 
+	display: block; 
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	text-align: center;  
+	color: #FFD700; 
+	font-size: 50px; 
+	padding: 5px;  
+	font-weight: bold; 
+	border: solid 4px; 
+	border-bottom: none; 
+	text-transform: uppercase;
+} 
+
+/* Styling the contents of Store Address*/
+Address 
+{  
+	display: block; 
+	text-align: center; 
+	font-family: Arial, Helvetica, Sans-serif;  font-size: 20px; 
+	color: rgb(250,250,250);  
+	padding: 5px;  
+	border-left: solid 4px; 
+	border-right: solid 4px; 
+} 
+
+/* Styling the contents of Store Telephone Number*/
+Telephone_Number 
+{ 
+	display: block; 
+	text-align: center; 
+	font-family: Arial, Helvetica, Sans-serif;  font-size: 20px; 
+	color: rgb(250,250,250); 
+	border-right: solid 4px; 
+	border-left: solid 4px; 
+} 
+
+/* Styling the contents of Email Address of Store*/
+Email_Address 
+{
+	display: block; 
+	text-align: center; 
+	font-family: Arial, Helvetica, Sans-serif;  
+	font-size: 20px; 
+	color: rgb(250,250,250); 
+	border-right: solid 4px; 
+	border-left: solid 4px; 
+}
+
+/* Styling the contents of Website Address of Store*/
+Website_Address 
+{ 
+	display: block; 
+	text-align: center;  font-family: Arial, Helvetica, Sans-serif; 
+	font-size: 18px; 
+	color: rgb(250,250,250); 
+	padding-bottom: 20px;  
+	border: solid 4px;  border-top: none; 
+} 
+
+/* Styling the Logo of the Store*/
+Logo 
+{  
+	background-image: url("Logo.png"); 
+	width:200px; 
+	height:153px;  background-size: 200px; 
+	position:absolute; 
+	top:4px;  margin: 5px;
+	margin-left: 30px;  
+	border-radius: 25px;
+	opacity: 100%;
+
+}
+
+/* Hover effect on Logo*/
+Logo:hover 
+{
+	transform: scale(1.1);
+	opacity:50%;
+  	transition:opacity 2s
+} 
+
+/* Styling the welcome image of website*/
+Welcome 
+{  
+	background-image: url("welcome.png"); 
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+	width:1450px ; 
+	height:350px;  
+	position:absolute; 
+	margin-top:15px; 
+	margin-left: 38px;
+	padding-bottom: 15px; 
+	border-radius: 130px;
+} 
+Welcome:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+Copyright 
+{  
+	display: block; 
+	text-align: center; 
+	font-family: Arial, Helvetica, Sans-serif;  font-size: 20px; 
+	color: rgb(250,250,250);  
+	padding: 5px;  
+	border-left: solid 4px; 
+	border-right: solid 4px; 
+}
+
+
+
+
+/* Styling the contents of origins Tag*/
+#Origins
+{  	display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  height: 80pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+} 
+
+/* Styling the specific Song of Origins Tag*/
+#Origins>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00; 
+	margin:40px;
+	margin-top: 429px;
+	width: 582px;  
+	height: 715px; 
+	padding: 40px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 50px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black;
+
+}
+
+/* Adding text to the Song Tag*/
+#Origins>Song::before 
+{ 
+	content: "Imagine Dragons's"; 
+	font-family: "system-ui";  
+	text-transform:uppercase;
+	font-weight: bold; 
+	font-size: 20px; 
+	color: #5f2c3e;
+}
+
+/* Styling the contents of 1989 Tag*/
+#Nineteeneightynine
+{  display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+} 
+
+/* Styling specific Song of 1989 Tag*/
+#Nineteeneightynine>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 40px;
+	width: 570px;  
+	height: 700px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px;
+	border-radius: 30px; 
+	box-shadow: 5px 5px 5px black;
+}
+
+/* Adding text to the 1989 Tag*/
+#Nineteeneightynine>Song::before 
+{ 
+	content: "Taylor Swift's "; 
+	font-family: "system-ui"; 
+	text-transform:uppercase; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color: Maroon;
+} 
+
+/* Styling the contents of Vida Tag*/
+#Vida
+{  
+	display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+	padding-top: 10px;
+} 
+
+/* Styling specific Song of Vida Tag*/
+#Vida>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 20px;
+	width: 570px;  
+	height: 685px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black; 
+}
+
+/* Adding Text to the Song Tag*/
+#Vida>Song::before 
+{ 
+	content: "Luis Fonsi's "; 
+	font-family: "system-ui";  
+	font-weight: bold; 
+	text-transform:uppercase;
+	font-size: 20px; 
+	color:  Maroon;
+}
+/* Styling the contents of Vida Tag*/
+#Rare
+{  
+	display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  
+	height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+} 
+
+/* Styling specific Song of Vida Tag*/
+#Rare>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 40px;
+	width: 570px;  
+	height: 685px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px;
+	border-radius: 30px; 
+	box-shadow: 5px 5px 5px black; 
+}
+
+/* Adding Text to the Song Tag*/
+#Rare>Song::before 
+{
+	content: "Selena Gomez's "; 
+	font-family: "system-ui"; 
+	text-transform:uppercase; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color:  Maroon;
+}
+/* Styling the contents of Vida Tag*/
+#Divide
+{  
+	display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  
+	height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+} 
+
+/* Styling specific Song of Vida Tag*/
+#Divide>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 40px;
+	width: 570px;  
+	height: 670px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px; 
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black;
+}
+
+/* Adding Text to the Song Tag*/
+#Divide>Song::before 
+{ 
+	content: "Ed Sheeran's"; 
+	font-family: "system-ui"; 
+	text-transform:uppercase; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color:  Maroon;
+}
+
+
+/* Styling the contents of Vida Tag*/
+#FineLine
+{  
+	display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  
+	height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+} 
+
+/* Styling specific Song of Vida Tag*/
+#FineLine>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 40px;
+	width: 570px;  
+	height: 670px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black;  
+}
+
+/* Adding Text to the Song Tag*/
+#FineLine>Song::before 
+{ 
+	content: "Harry Styles's"; 
+	font-family: "system-ui";
+	text-transform:uppercase;  
+	font-weight: bold; 
+	font-size: 20px; 
+	color:  Maroon;
+}
+
+
+/* Styling the contents of Vida Tag*/
+#DuaLipa
+{  
+	display: block; 
+	border: solid 3px #964B00; 
+	width: 100%;  
+	height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color: silver;
+} 
+
+/* Styling specific Song of Vida Tag*/
+#DuaLipa>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 40px;
+	width: 570px;  
+	height: 685px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px; 
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black; 
+}
+
+/* Adding Text to the Song Tag*/
+#DuaLipa>Song::before 
+{ 
+	content: "Dua Lipa's "; 
+	font-family: "system-ui"; 
+	text-transform:uppercase; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color:  Maroon;
+}
+
+
+
+/* Styling the contents of Vida Tag*/
+#Blurryface
+{  
+	display: block; 
+	border: solid 2px #964B00; 
+	width: 100%;  
+	height: 54pc; 
+	border-right: none; 
+	border-left: none; 
+	background-color:silver;
+} 
+
+/* Styling specific Song of Vida Tag*/
+#Blurryface>Song
+{ 
+	display: block;   
+	border: solid 3px #964B00;  
+	margin:40px;
+	margin-top: 40px;
+	width: 570px;  
+	height: 680px; 
+	padding: 50px; 
+	background-color: #fff9ff; 
+	float: left;  
+	margin-right: 40px; 
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black;
+}
+
+/* Adding Text to the Song Tag*/
+#Blurryface>Song::before 
+{ 
+	content: "Twenty One Pilots"; 
+	font-family: "system-ui"; 
+	text-transform:uppercase; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color: Maroon;
+}
+/* Styling the contents Information Tag of the Song*/
+Information
+ { 
+	display: block;  
+	font-family: "Times New Roman", Times, serif; 
+	text-align: justify;
+} 
+
+/* Styling the contents of Description Tag of the Song*/
+Description 
+{ 
+ 	display: block; 		
+	font-family: "Times New Roman", Times, serif; 
+	margin-top: 43%;  
+	text-align: justify; 
+} 
+
+/* Adding text to the Description Tag*/
+Description::before 
+{ 
+ 	content: "Features & Specifications "; 
+	font-family: "system-ui"; 
+	text-decoration: underline; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color: rgb(29,29,125);
+	border-radius: 30px;
+} 
+
+
+/* Styling the contents of Song_Name Tag of the Song*/
+Song_Name
+ { 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	margin-top:12px;
+	color: red;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+} 
+
+/* Adding text to the Song_Name Tag*/
+Song_Name::before 
+{  
+	content: "Song Name:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Studio Tag of the Song*/
+Studio 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	color:green;
+} 
+
+/* Adding text to the Genre Tag*/
+Studio::before 
+{  
+	content: "Studio:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+/* Styling the contents of Song_Length Tag of the Song*/
+Song_Length
+ { 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	margin-top:12px;
+} 
+
+/* Adding text to the Song_Name Tag*/
+Song_Length::before 
+{  
+	content: "Song Length:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+/* Styling the contents of Released_Year Tag of the Song*/
+Released_Year 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Released_Year Tag*/
+Released_Year::before 
+{  
+	content: "Released Year:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+
+
+/* Styling the contents of Genre Tag of the Song*/
+Genre 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Genre Tag*/
+Genre::before 
+{  
+	content: "Genre:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+
+/* Styling the contents of Video_Making Tag of the Song*/
+Video_Making
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Video_Making Tag*/
+Video_Making::before 
+{  
+	content: "Music Video:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Director Tag of the Song*/
+Director 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	margin-left: 25px;
+}
+/* Adding text to the Director Tag*/
+Director::before 
+{  
+	content: "Director:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Location Tag of the Song*/
+Location 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	margin-left: 25px;
+}
+/* Adding text to the location Tag*/
+Location::before 
+{  
+	content: "Location:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Actor Tag of the Song*/
+Actor 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	margin-left: 25px;
+}
+/* Adding text to the Actor Tag*/
+Actor::before 
+{  
+	content: "Actor:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Views Tag of the Song*/
+Views 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	margin-left: 25px;
+}
+
+Views::before 
+{  
+	content: "Views:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+/* Styling the contents of Producer Tag of the Song*/
+Producer 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Producer Tag*/
+Producer::before 
+{  
+	content: "Producer:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+
+/* Styling the contents of Nation Tag of the Song*/
+Nationality 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Nation Tag*/
+Nationality::before 
+{  
+	content: "Nationality:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+
+/* Styling the contents of Language Tag of the Song*/
+Language 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Language Tag*/
+Language::before 
+{  
+	content: "Language:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+/* Styling the contents of Song_Writer Tag of the Song*/
+Song_Writer 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Song_Writer Tag*/
+Song_Writer::before 
+{  
+	content: "Song Writer:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+/* Styling the contents of Singer Tag of the Song*/
+Singer 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Singer Tag*/
+Singer::before 
+{  
+	content: "Singer:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+
+
+/* Styling the contents of Singer Tag of the Song*/
+Singer 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the Singer Tag*/
+Singer::before 
+{  
+	content: "Singer:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Certification Tag of the Song*/
+Certification 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	color:green;
+} 
+
+/* Adding text to the Certification Tag*/
+Certification::before 
+{  
+	content: "Certification:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Awards Tag of the Song*/
+Awards 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	color:green;
+} 
+/* Adding text to the Awards Tag*/
+Awards::before 
+{  
+	content: "Awards:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Concert Tag of the Song*/
+Concert 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif;
+	color:green; 
+} 
+/* Adding text to the Concert Tag*/
+Concert::before 
+{  
+	content: "Concert:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of Performance Tag of the Song*/
+Performance 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif;
+	color:green; 
+} 
+/* Adding text to the Performance Tag*/
+Performance::before 
+{  
+	content: "Performance:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of IMDB_Rating Tag of the Song*/
+IMDb_Rating
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+} 
+
+/* Adding text to the IMDB_Rating Tag*/
+IMDb_Rating::before 
+{  
+	content: "IMDB_Rating:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the contents of IMDB_Rating Tag of the Song*/
+Choreography
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif;
+	margin-left:25px;
+} 
+
+/* Adding text to the IMDB_Rating Tag*/
+Choreography::before 
+{  
+	content: "Choreography:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+
+}
+/* Styling the contents of Singer Tag of the Song*/
+Billboard 
+{ 
+	display: list-item; 
+	list-style: disc inside;   
+	font-family: "Times New Roman", Times, serif; 
+	color:green;
+} 
+
+/* Adding text to the Billboard Tag*/
+Billboard::before 
+{  
+	content: "Billboard:  "; 
+	font-weight: bold; 
+	color:rgb(182,9,3);
+}
+/* Styling the Image of the Song*/
+#banner_001 
+{ 
+	background-image: url("Bad Liar.png"); 
+	background-size: 380px; 
+	background-position: center;
+    background-repeat: no-repeat;
+	width:340px; 
+	height:200px;  
+	position:absolute; 
+	display: flex;
+	margin-top: 42px; 
+	transition: transform .3s;
+	margin-left:5px;
+	border-radius: 60px;
+} 
+
+#banner_002 
+{ 
+	background-image: url("Zero.png");  
+	background-size: 250px; 
+	background-position: center;
+    background-repeat: no-repeat;
+	width:250px;
+	display: flex; 
+	height:200px;  
+	border-radius: 60px;
+	position:absolute; 
+	margin-top: 42px; 
+	transition: transform .3s;
+	margin-left: 0px;
+} 
+
+
+
+#banner_003 
+{ 
+	background-image: url("Despacito.png");  
+	background-size: 300px; 
+	background-position: center;
+    background-repeat: no-repeat;
+	width:400px; 
+	height:200px;  
+	border-radius: 60px;
+	position:absolute;
+	margin-left: -45px; 
+	margin-top: 42px;  
+	transition: transform .3s; 
+} 
+
+#banner_004
+ { 
+	background-image: url("Impossible.png"); 
+	 background-size: 200px; 
+	 background-position: center;
+    background-repeat: no-repeat;
+	width:500px; 
+	height:300px;  
+	position:absolute; 
+	margin-top: -20px;  
+	transition: transform .3s; 
+	margin-left: -150px;
+} 
+
+#banner_005 
+{ 
+	background-image: url("Lose you to love me.png");  
+	background-size: 320px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:365px; 
+	height:180px;  
+	border-radius: 50px;
+	position:absolute; 
+	margin-top: 42px;
+	margin-left: -17px;
+	transition: transform .3s;  
+} 
+
+#banner_006 
+{ 
+	background-image: url("Look at her now.png"); 
+	background-size: 270px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:349px; 
+	height:173px;  
+	border-radius: 60px;
+	position:absolute; 
+	margin-top: 42px; 
+	margin-left: -40px; 
+	transition: transform .3s; 
+} 
+#banner_007 
+{ 
+	background-image: url("Perfect.png");  
+	background-size: 250px; 
+	background-position: center;
+    background-repeat: no-repeat;
+	width:365px; 
+	height:180px; 
+	border-radius: 100px; 
+	position:absolute; 
+	margin-top: 42px;
+	margin-left: -55px;
+	transition: transform .3s;  
+}
+#banner_008 
+{ 
+	background-image: url("Shape of you.png");  
+	background-size: 220px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:300px; 
+	height:180px;  
+	border-radius: 300px;
+	position:absolute; 
+	margin-top: 42px;
+	margin-left: -40px;
+	transition: transform .3s;  
+}
+#banner_009 
+{ 
+	background-image: url("Adore you.png");  
+	background-size: 200px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:300px; 
+	height:169px;  
+	border-radius: 300px;
+	position:absolute;
+	margin-top: 42px;
+	margin-left: -45px;
+	transition: transform .3s;  
+}
+#banner_0010 
+{ 
+	background-image: url("Falling.png");  
+	background-size: 200px; 
+	background-position: center;
+    background-repeat: no-repeat;
+	width:240px; 
+	height:180px;  
+	border-radius: 60px;
+	position:absolute; 
+	margin-top: 42px;
+	margin-left: -20px;
+	transition: transform .3s;  
+}
+#banner_0011 
+{ 
+	background-image: url("New rules.png");  
+	background-size: 190px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:200px; 
+	height:180px;  
+	border-radius: 300px;
+	position:absolute; 
+	margin-top: 42px;
+	margin-left: -10px;
+	transition: transform .3s;  
+}
+#banner_0012
+{ 
+	background-image: url("IGDAF.png");  
+	background-size: 200px; 
+	background-position: center;
+    background-repeat: no-repeat;
+	width:200px; 
+	height:180px;  
+	position:absolute; 
+	margin-top: 42px;
+	margin-left: -20px;
+
+	transition: transform .3s;  
+}
+#banner_0013 
+{ 
+	background-image: url("Ride.png");  
+	background-size: 260px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:305px; 
+	height:180px;  
+	position:absolute; 
+	margin-top: 42px;
+	border-radius: 55px;
+	margin-left: -20px;
+	transition: transform .3s;  
+}
+#banner_0014
+{ 
+	background-image: url("Stressed out.png");  
+	background-size: 250px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:250px; 
+	height:180px;  
+	position:absolute; 
+	margin-top: 42px;
+	border-radius: 30px;
+	transition: transform .3s; 
+	margin-left:10px; 
+}
+#banner_0015 
+{ 
+	background-image: url("Bad Blood.png"); 
+	background-size: 200px;
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:230px; 
+	height:230px;  
+	position:absolute; 
+	border-radius: 300px;
+	margin-top: 10px; 
+	transition: transform .3s;
+} 
+
+#banner_0016
+ { 
+	background-image: url("Style.png"); 
+	background-size: 300px; 
+	background-position: center;
+    background-repeat: no-repeat; 
+	width:250px; 
+	height:200px; 
+	position:absolute;  
+	margin-top: 10px;
+	margin-left:1px; 
+	border-radius: 90px;
+	transition: transform .3s;
+} 
+
+/* Adding hover effect to the banner of the Song*/
+Banner:hover{
+	transform:scale(1.1);
+}

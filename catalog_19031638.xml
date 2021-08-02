@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?> 
+<!--   Author: Santosh Dangal 
+ 	   Date: 13th April, 2021  
+--> 
+<?xml-stylesheet href="catalog_19031638.css" type="text/css"?>
+<!--<!DOCTYPE Store SYSTEM "catalog_19031638.dtd">-->
+<!--Root Tag -->
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031638.xsd">
+	<!-- Name of the Store -->
+	<Store_Name>Dark Knight Music Zone</Store_Name>
+	<!-- Address of the Store -->
+	<Address>Durbarmarg, Kathmandu</Address>
+	<!-- Contact Number of the Store -->
+	<Telephone_Number>01-4757389</Telephone_Number>
+	<!-- Email Address of the Store -->
+	<Email_Address>Customer.care@DarkKnightMusic.com</Email_Address>
+	<!-- Website Address of the Store -->
+	<Website_Address>www.DarkKnightMusic.com</Website_Address>
+	<!-- Logo of the Store -->
+	<Logo image="img"/>
+	<!-- Welcome Image for the website -->
+	<Welcome></Welcome>
+	<!-- Dark Knight Music -->
+	<Music>
+		<!-- Dark Knight Albums-->
+	 	<Album id ="Origins">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_1" Song_label="Interscope; ‎Kidinakorner">
+	 			<!-- Information of the Song -->
+	 			<Information>
+					<![CDATA["Bad Liar" is a song by American pop rock band Imagine Dragons. The song was released through Interscope and Kidinakorner records on November 6, 2018 as the fourth single from their fourth studio album, Origins (2018). It was written by Imagine Dragons, Aja Volkman and Jorgen Odegard, and produced by Odegard."Bad Liar" peaked at number 56 one the US Billboard Hot 100.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_001"/>
+				<!-- Description of Song -->
+				<Description>
+					<Song_Name>Bad Liar</Song_Name>
+					<Song_Length>4:20</Song_Length>
+					<Released_Year date="A.D.">2018</Released_Year>
+					<Genre>Electropop</Genre>
+					<Video_Making type="string"> 
+						<Director>Ryan Reichenfeld</Director>
+						<Location>Green Valley High School, Henderson, Nevada</Location>
+						<Actor>Autumn Miller</Actor>
+						<Views>300 million on Youtube</Views>
+					</Video_Making>
+					<Producer>Jorgen Odegard</Producer>
+					<Nationality>USA</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Aja Volkman</Song_Writer>
+					<Singer>Imagine Dragons</Singer>
+					<IMDb_Rating>6.5</IMDb_Rating>
+					<!--Optional element-->
+					<Performance>Cosmopolitan in Las Vegas, Nevada,2019 National College Football Championship,USA</Performance>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_2" Song_label="	
+			Kidinakorner;Interscope,Walt Disney">
+	 			<!-- Information of the Song -->
+				<Information>
+					<![CDATA["Zero" is a song by American pop rock band Imagine Dragons, who co-wrote it with their producer John Hill. It is the second single from the band's fourth studio album Origins.The song is featured in the Disney animated film Ralph Breaks the Internet and was included in its second official trailer and its soundtrack.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_002"/>
+				<!-- Description of Song -->
+				<Description>
+					<Song_Name>Zero</Song_Name>
+					<Song_Length>3:30</Song_Length>
+					<Released_Year date="A.D.">2018</Released_Year>
+					<Genre>Pop rock</Genre>
+					<Video_Making type="string"> 
+						<Director>Rich Moore and Byron Howard</Director>
+						<Location>Disney Films:Ralph Breaks the Internet</Location>
+						<Actor>Dan Reynolds, Wayne Sermon, Ben McKee, Daniel Platzman</Actor>
+						<Views>71 million on Youtube</Views>
+					</Video_Making>
+					<Producer>John Hill</Producer>
+					<Nationality>All Countries</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Dan Reynolds,Ben McKeeWayne, Sermon, Daniel Platzman, John Hill</Song_Writer>
+					<Singer>Imagine Dragons</Singer>
+					<IMDb_Rating>7</IMDb_Rating>
+
+									
+				</Description>
+			</Song>
+		</Album>
+		
+		<Album id ="Vida">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_3" Song_label="Universal Latin">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Despacito" (American Spanish: [despa'sito]; transl. "Slowly") is a song by Puerto Rican singer Luis Fonsi featuring Puerto Rican rapper Daddy Yankee from Fonsi's 2019 studio album Vida. Released on January 12, 2017, the song was written by Fonsi, Erika Ender and Daddy Yankee, and produced by Mauricio Rengifo and Andrés Torres.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_003"/>
+				<!-- Description of the Song -->
+				<Description>
+					<Song_Name>Despacito</Song_Name>
+					<Song_Length>3:47</Song_Length>
+					<Released_Year date="A.D.">2017</Released_Year>
+					<Genre>Reggaeton, Latin pop</Genre>
+					<Video_Making type="string"> 
+						<Director>Carlos Pérez</Director>
+						<Location>La Perla neighborhood and bar La Factoría in San Juan,Puerto Rico </Location>
+						<Actor>Luis Fonsi, Daddy Yankee, Zuleyka Rivera</Actor>
+						<Views>7.3 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Mauricio Rengifo Andrés Torres</Producer>
+					<Nationality>Spain,USA</Nationality>
+					<Language>Spanish English</Language>
+					<Song_Writer>Luis Rodríguez, Erika Ender, Ramón Ayala(Spanish), Samper(English)</Song_Writer>
+					<Singer>Luis Fonsi Daddy Yanke(Original), Justin Bieber(English) </Singer>
+					<IMDb_Rating>6</IMDb_Rating>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_4" Song_label="Universal Latin eed Universal">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Imposible" is a song by Puerto Rican singers Luis Fonsi and Ozuna, released on October 19, 2018, through Universal Music Latin Entertainment.[1] The song topped the charts in Chile and reached the top 10 in Argentina, Bolivia, Panama and Spain.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_004"/>
+				<!-- Description of the Song -->
+				<Description>
+					<Song_Name>Impossible</Song_Name>
+					<Song_Length>2:43</Song_Length>
+					<Released_Year date="A.D.">2018</Released_Year>
+					<Genre>Reggaeton Latin pop</Genre>
+					<Video_Making type="string"> 
+						<Director>Carlos Perez</Director>
+						<Location>Miami,USA</Location>
+						<Actor>Luis Fonsi Ozuna</Actor>
+						<Views>423 million on Youtube</Views>
+					</Video_Making>
+					<Producer>Andrés Torres,Mauricio Rengifo</Producer>
+					<Nationality>Spain</Nationality>
+					<Language>Spanish</Language>
+					<Song_Writer>Luis Fonsi,Vicente Saavedra, Mauricio Rengifo, Juan Carlos, Ozuna Rosado, Andrés Torres</Song_Writer>
+					<Singer>Luis Fonsi Ozuna</Singer>
+					<IMDb_Rating>6</IMDb_Rating>
+									
+				</Description>
+			</Song>
+		</Album>
+		<Album id ="Rare">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_5" Song_label="Interscope">
+	 			<!-- Information of the Song -->
+				<Information>
+					<![CDATA["Lose You to Love Me" is a song by American singer Selena Gomez, released by Interscope Records on October 23, 2019, as the lead single from Gomez's third studio album, Rare (2020). The song was written by Gomez, Julia Michaels, Justin Tranter, and its producers Mattman & Robin.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_005"/>
+				<!-- Description of the Song -->
+				<Description>
+					<Song_Name>Lose You to Love Me</Song_Name>
+					<Song_Length>3:26</Song_Length>
+					<Released_Year date="A.D.">2019</Released_Year>
+					<Genre>Pop</Genre>
+					<Video_Making type="string"> 
+						<Director>Sophie Muller</Director>
+						<Location>Los Angeles,USA</Location>
+						<Actor>Selena Gomez</Actor>
+						<Views>606 million on Youtube</Views>
+					</Video_Making>
+					
+					<Producer>Mattman and Robin</Producer>
+					<Nationality>America</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Selena Gomez, Julia Michaels, Justin Tranter, Mattias Larsson, Robin Fredriksson</Song_Writer>
+					<Singer>Selena Gomez</Singer>
+					<IMDb_Rating>7.6</IMDb_Rating>
+					<!--Optional element-->
+					<Certification>2x Platinum in Australia, Platinum in United Kingdom</Certification>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_6" Song_label="Interscope">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Look at Her Now" is a song by American singer Selena Gomez. It was released on October 24, 2019, by Interscope Records as the second single from her third studio album Rare (2020), a day after "Lose You to Love Me". The song was written by Gomez, Julia Michaels, Justin Tranter and its producer Ian Kirkpatrick. It has been described as a dance-pop, electropop and synth-pop song.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_006"/>
+				<!-- Description of Car -->
+				<Description>
+					<Song_Name>Look at Her Now</Song_Name>
+					<Song_Length>2:42</Song_Length>
+					<Released_Year date="A.D.">2019</Released_Year>
+					<Genre>Dance-pop electropop synth-pop</Genre>
+					<Video_Making type="string"> 
+						<Director>Sophie Muller</Director>
+						<Location>Los Angeles,USA</Location>
+						<Actor>Selena Gomez</Actor>
+						<Views>201 million on Youtube</Views>
+					</Video_Making>
+					<Producer>Ian Kirkpatrick</Producer>
+					<Nationality>America</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Selena Gomez, Julia Michaels, Justin Tranter, Ian Kirkpatrick
+					</Song_Writer>
+					<Singer>Selena Gomez</Singer>
+					<IMDb_Rating>6.5</IMDb_Rating>
+									
+				</Description>
+			</Song>
+		</Album>
+		<Album id ="Divide">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_7" Song_label="Asylum 
+	 			Atlantic">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Perfect" is a song by English singer-songwriter Ed Sheeran from his third studio album, ÷ (2017). After the album's release, it charted at number four on the UK Singles Chart. On 21 August 2017, Billboard announced that "Perfect" would be the fourth single from the album.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_007"/>
+				<!-- Description of the Song -->
+				<Description>
+					<Song_Name>Perfect</Song_Name>
+					<Song_Length>4:23</Song_Length>
+					<Released_Year date="A.D.">2017
+					</Released_Year>
+					<Genre>Pop</Genre>
+					<Video_Making type="string"> 
+						<Director>dp Jason Koenig</Director>
+						<Location>Austrian ski resort of Hintertux</Location>
+						<Actor> Ed Sheeran Zoey Deutch</Actor>
+						<Views>2.8 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Ed Sheeran, Will Hicks</Producer>
+					<Nationality>UK</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Ed Sheeran</Song_Writer>
+					<Singer>Ed Sheeran</Singer>
+					<IMDb_Rating>8.3</IMDb_Rating>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_8" Song_label="Asylum Atlantic">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Shape of You" is a song by English singer-songwriter Ed Sheeran. It was released as a digital download on 6 January 2017 as one of the double lead singles from his third studio album ÷ (2017), along with "Castle on the Hill".]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_008"/>
+				<!-- Description of the song -->
+				<Description>
+					<Song_Name>Shape of You</Song_Name>
+					<Song_Length>3:53</Song_Length>
+					<Released_Year date="A.D.">2017</Released_Year>
+					<Genre>Pop dancehall, tropical house</Genre>
+					<Video_Making type="string"> 
+						<Director>Jason Koenig</Director>
+						<Location>Seattle</Location>
+						<Actor>Ed Sheeran, Jennie Pegouskie </Actor>
+						<Views>5 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Ed Sheeran, Steve Mac</Producer>
+					<Nationality>UK</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Ed Sheeran, Steve MacJohnny, McDaid Kandi, Burruss Tameka, Cottle, Kevin Briggs</Song_Writer>
+					<Singer>Ed Sheeran</Singer>
+					<IMDb_Rating>7.8</IMDb_Rating>
+									
+				</Description>
+			</Song>
+		</Album>
+		<Album id ="FineLine">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_9" Song_label="Erskine 
+	 			Columbia">
+	 			<!-- Information of the Song -->
+				<Information>
+					<![CDATA["Adore You" is a song by English singer and songwriter Harry Styles from his second studio album, Fine Line (2019). It was released through Erskine and Columbia Records as the album's second single on 6 December 2019.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_009"/>
+				<!-- Description of the song -->
+				<Description>
+					<Song_Name>Adore You</Song_Name>
+					<Song_Length>3:27</Song_Length>
+					<Released_Year date="A.D.">2019</Released_Year>
+					<Genre>Pop funk, disco, pop rock</Genre>
+					<Video_Making type="string"> 
+						<Director>Dave Meyers</Director>
+						<Location>St Abbs Cockenzie and Port Seton in Scotland</Location>
+						<Actor>Harry Styles</Actor>
+						<Views>223 million on Youtube</Views>
+					</Video_Making>
+					<Producer>Kid Harpoon</Producer>
+					<Nationality>UK</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Harry Styles, Amy Allen, Tyler Johnson, Thomas Hull</Song_Writer>
+					<Singer>Harry Styles</Singer>
+					<IMDb_Rating>8.6</IMDb_Rating>
+					<!--Optional element-->
+					<Awards>Music video of the Year, 2020 </Awards>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_10" Song_label="	
+				Erskine Columbia">
+	 			<!-- Information of the Song -->
+				<Information>
+					<![CDATA[Falling" is a song by English singer and songwriter Harry Styles. This ballad was released through Erskine and Columbia Records on 7 March 2020 as the third single from his second studio album, Fine Line (2019).[1] Written by Styles and Kid Harpoon, the latter also handled the song's production.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0010"/>
+				<!-- Description of the song -->
+				<Description>
+					<Song_Name>Falling</Song_Name>
+					<Song_Length>4:00</Song_Length>
+					<Released_Year date="A.D.">2020</Released_Year>
+					<Genre>Soul</Genre>
+					<Video_Making type="string"> 
+						<Director>Dave Meyers</Director>
+						<Location>a room with styles with a piano </Location>
+						<Actor>Dave Meyers</Actor>
+						<Views>94 million on Youtube</Views>
+					</Video_Making>
+					<Producer>Kid Harpoon</Producer>
+					<Nationality>UK</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Harry Styles, Thomas Hull</Song_Writer>
+					<Singer>Harry styles</Singer>
+					<IMDb_Rating>8.7</IMDb_Rating>
+									
+				</Description>
+			</Song>
+		</Album>
+		<Album id ="DuaLipa">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_11" Song_label="	Warner Bros">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["New Rules" is a song recorded by English singer Dua Lipa for her self-titled debut studio album (2017). The track was written and produced by Ian Kirkpatrick, with additional writing from Caroline Ailin and Emily Warren. It was released to contemporary hit radio in the United Kingdom on 15 July 2017 as the album's seventh single, releasing in the same format in the United States on 22 August.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0011"/>
+				<!-- Description of the song -->
+				<Description>
+					<Song_Name>New Rules</Song_Name>
+					<Song_Length>3:29</Song_Length>
+					<Released_Year date="A.D.">2017</Released_Year>
+					<Genre>Tropical house EDM electropop</Genre>
+					<Video_Making type="string">
+						<Director>Henry Scholfield</Director>
+						<Location>A hotel in Miami Beach,USA</Location> 
+						<Actor>Dua Lipa</Actor>
+						<Views>2.3 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Ian Kirkpatrick</Producer>
+					<Nationality>UK</Nationality>
+					<Language>WEnglish</Language>
+					<Song_Writer>Caroline Ailin, Emily Warren, Ian Kirkpatrick</Song_Writer>
+					<Singer>Dua Lipa</Singer>
+					<IMDb_Rating>7.3</IMDb_Rating>
+					<!--Optional element-->
+					<Concert>Glastonbury Festival, England on 23 June 2017, Jingle Bell Ball, London</Concert>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_12" Song_label="Warner Bros">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["IDGAF" (an acronym for "I don't give a fuck") is a song by English singer Dua Lipa from her self-titled debut studio album (2017). The song was written by Lipa, MNEK, Larzz Principato, Skyler Stonestreet and Whiskey Water, with Koz handling the production. It was released for digital download and streaming on 12 January 2018 as the eighth and final single from the album.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0012"/>
+				<!-- Description of the song -->
+				<Description>
+					<Song_Name>IDGAF</Song_Name>
+					<Song_Length>3:38</Song_Length>
+					<Released_Year date="A.D.">2018</Released_Year>
+					<Genre>Pop</Genre>
+					<Video_Making type="string">
+						<Director>Henry Scholfield</Director>
+						<Location>UK</Location> 
+						<Actor>Dua Lipa</Actor>
+						<Views>692 million on Youtube </Views>
+					</Video_Making>
+					<Producer>Campbell Beaton</Producer>
+					<Nationality>UK</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Dua Lipa, MNEK Larzz, Principato Skyler, Stones treet, Whiskey Water</Song_Writer>
+					<Singer>Dua Lipa</Singer>
+					<IMDb_Rating>6.9</IMDb_Rating>
+									
+				</Description>
+			</Song>
+		</Album>
+		<Album id ="Blurryface">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_13" Song_label="	Fueled by Ramen">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Ride" is a song written and recorded by American musical duo Twenty One Pilots, from their fourth studio album, Blurryface. "Ride" was originally released as a promotional single on YouTube on May 11, 2015.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0013"/>
+				<!-- Description of the song -->
+				<Description>
+					<Song_Name>Ride</Song_Name>
+					<Song_Length>3:34</Song_Length>
+					<Released_Year date="A.D.">2016</Released_Year>
+					<Genre>Alternative hip hop, reggae dub rock, electropop</Genre>
+					<Video_Making type="string"> 
+						<Director>Mark C. Eshleman</Director>
+						<Location>Grove City and Hollywood</Location>
+						<Actor> Tyler Joseph, Josh Dun</Actor>
+						<Views>1.1 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Ricky Reed</Producer>
+					<Nationality>USA</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Tyler Joseph</Song_Writer>
+					<Singer>Tyler Joseph</Singer>
+					<IMDb_Rating>7.8</IMDb_Rating>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_14" Song_label="Fueled by Ramen">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Stressed Out" is a song by American alternative duo Twenty One Pilots from their fourth studio album, Blurryface (2015). The track was produced by Mike Elizondo and recorded in Los Angeles, California and London, England. Elizondo initially took issue with the nature of the song's lyrical content]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0014"/>
+				<!-- Description of song -->
+				<Description>
+					<Song_Name>Stressed Out</Song_Name>
+					<Song_Length>3:22</Song_Length>
+					<Released_Year date="A.D.">2015</Released_Year>
+					<Genre>Alternative hip hop, rap rock rock, psychedelic pop</Genre>
+					<Video_Making type="string"> 
+						<Director>Mark C. Eshleman</Director>
+						<Location>Los Angeles, California and London</Location>
+						<Actor>Tyler Joseph Josh Dun</Actor>
+						<Views>2.2 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Mike Elizondo</Producer>
+					<Nationality>USA</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Tyler Joseph</Song_Writer>
+					<Singer>Tyler Joseph</Singer>
+					<IMDb_Rating>7.7</IMDb_Rating>
+									
+				</Description>
+			</Song>
+		</Album>
+		<Album id ="Nineteeneightynine">
+	 		<!-- Dark Knight Song-->
+	 		<Song Song_no="song_15" Song_label="Big Machine Republic">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Bad Blood" is a song by American singer-songwriter Taylor Swift, taken from her fifth studio album 1989 (2014). Swift wrote the song with its producers Max Martin and Shellback. The album version is a pop song with stomping drums talking about betrayal by a close friend.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0015"/>
+				<!-- Description of the Song -->
+				<Description>
+					<Song_Name>Bad Blood</Song_Name>
+					<Song_Length>3:19</Song_Length>
+					<Released_Year date="A.D.">2015</Released_Year>
+					<Genre> Pop hip hop</Genre>
+					<Video_Making type="string"> 
+						<Director>Joseph Khan</Director>
+						<Location>Los Angeles</Location>
+						<Actor>Taylor Swift, Kendrick Lamar, Max Martin, Shellback</Actor>
+						<Views>1.4 billion on Youtube</Views>
+					</Video_Making>
+					<Producer>Max Martin, Shellback Ilya</Producer>
+					<Nationality>USA</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Taylor Swift, Kendrick Lamar, Max Martin, Shellback</Song_Writer>
+					<Singer>Taylor Swift Kendrick Lamar</Singer>
+					<IMDb_Rating>7.3</IMDb_Rating>
+					<!--Optional element-->
+					<Billboard>Peak in 2015, Top 100 Hot Chart</Billboard>
+									
+				</Description>
+			</Song>
+			<Song Song_no="song_16" Song_label="Big Machine">
+	 			<!-- Information of Song -->
+				<Information>
+					<![CDATA["Style" is a song by American singer-songwriter Taylor Swift, taken from her fifth studio album, 1989 (2014). The song was written by Swift and with its producers Max Martin, Shellback, and Ali Payami. "Style" was released to radio stations as the album's third single on February 9, 2015, by Republic Records in partnership with Swift's label at the time, Big Machine.]]>
+				</Information>
+				<!-- Banner of Song -->
+				<Banner id="banner_0016"/>
+				<!-- Description of Song -->
+				<Description>
+					<Song_Name>Style</Song_Name>
+					<Song_Length>3:51</Song_Length>
+					<Released_Year date="A.D.">2015</Released_Year>
+					<Genre>Funk-pop pop rock synth-pop</Genre>
+					<Video_Making type="string"> 
+						<Director>Kyle Newman</Director>
+						<Location>Los Angeles</Location>
+						<Actor>Taylor Swift, Dominic Sherwood</Actor>
+						<Views>655 million on Youtube</Views>
+					</Video_Making>
+					<Producer>Max Martin Shellback Ali Payami</Producer>
+					<Nationality>USA</Nationality>
+					<Language>English</Language>
+					<Song_Writer>Taylor Swift, Max Martin, Shellback, Ali Payami</Song_Writer>
+					<Singer>Taylor Swift</Singer>
+					<IMDb_Rating>7.4</IMDb_Rating>
+					<!--Optional element-->
+					<Studio>Conway (Los Angeles,USA)and MXM (Stockholm, Sweden)</Studio>
+									
+				</Description>
+			</Song>
+		</Album>
+	</Music>
+		<!-- Copyright of the Store -->
+	<Copyright>Copyright © Dark Knight Music Store,2021</Copyright>	
+</Store>
